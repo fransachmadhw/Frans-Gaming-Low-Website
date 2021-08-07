@@ -51,6 +51,11 @@
     margin-left: 3vh;
 }
 
+/* Jumbotron */
+.jumbotron {
+    height: 55vh;
+    background-size: cover;
+}
 
 
 .jumbotron img {
@@ -96,8 +101,8 @@
     position: absolute;
     z-index: 1;
     top: 0;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 70%;
     /*  object-fit is not supported on IE  */
     -o-object-fit: cover;
        object-fit: cover;
@@ -111,7 +116,7 @@
             box-shadow: 0 3px 20px rgba(0, 0, 0, .5);
     border-radius: 12px;
     background-color: white;
-    margin-top: -10vh;
+    margin-top: 0vh;
     padding: 30px;
     position: relative;
     z-index: 4;
@@ -359,7 +364,7 @@
 
     .jumbotron {
         margin-top: 0px;
-        height: 640px;
+        height: 60vh;
     }
 
     .jumbotron img {
@@ -378,8 +383,13 @@
         font-size: 4vw;
     }
 
+    .jumbotron video {
+        width: 100%;
+        height: 75%;
+    }
+
     .panel-info {
-        margin-top: -3vw;
+        margin-top: 10vh;
     }
 
     .working-space {

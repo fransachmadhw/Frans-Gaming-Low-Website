@@ -61,7 +61,7 @@
     background-image:  -o-linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .5), rgba(0, 0, 0, 1)), url(../img/bg_custom2.jpg);
     background-image:  linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .5), rgba(0, 0, 0, 1)), url(../img/bg_custom2.jpg);
     background-size: cover;
-    height: 670px;
+    height: 85vh;
     text-align: center;
     font-family: Helvetica;
 }
@@ -94,14 +94,16 @@
 }
 
 .jumbotron .carousel h5 {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     font-family: 'Raleway', sans-serif;
+    text-shadow: 3px 3px 1px 1px rgba(0, 0, 0, .5);
 }
 
 .jumbotron .carousel p {
     font-size: 12px;
     font-family: 'Raleway', sans-serif;
+    text-shadow: 3px 3px 1px 1px rgba(0, 0, 0, .5);
 }
 
 

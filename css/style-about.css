@@ -99,72 +99,6 @@ body {
 }
 
 
-/* Panel Info */
-.panel-info {
-    -webkit-box-shadow: 0 3px 20px rgba(0, 0, 0, .5);
-            box-shadow: 0 3px 20px rgba(0, 0, 0, .5);
-    border-radius: 12px;
-    background-color: white;
-    margin-top: -100px;
-    padding: 30px;
-}
-
-.panel-info img {
-    width: 80px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
-
-.panel-info h4 {
-    font-size: 16px;
-    text-transform: uppercase;
-    font-weight: bold;
-    margin-top: 5px;
-}
-
-.panel-info p {
-    font-size: 14px;
-    color: #ACACAC;
-    margin-top: -5px;
-    font-weight: 200;
-}
-
-/* Working Space */
-.working-space {
-    margin-top: 120px;
-    text-align: center;
-}
-
-.working-space h3 {
-    font-size: 42px;
-    font-weight: 200;
-    text-transform: uppercase;
-    margin-top: 30px;
-}
-
-.working-space h3 span {
-    font-weight: 500;
-}
-
-.working-space p {
-    font-size: 18px;
-    color: #ACACAC;
-    font-weight: 200;
-    margin: 30px 0;
-}
-
-.working-space .cover {
-    overflow: hidden;
-    width: 30vh;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    margin-top: -5vh;
-}
-
 /* Testimonial */
 .about {
     margin-top: 5vh;
@@ -381,46 +315,16 @@ body {
         margin: 0;
     }
 
-    .jumbotron .carousel h5 {
-        font-size: 64px;
-        font-weight: bold;
-    }
-
-    .jumbotron .carousel p {
-        font-size: 25px;
-    }
-
-    .working-space {
-        text-align: left;
-        margin-top: 0vh;
-        padding: 5vh;
-        position: relative;
-    }
-
-    .working-space .cover {
-        overflow: hidden;
-        width: 32vh;
-        position: relative;
-        top: 50%;
-        left: 50%;
-        -ms-transform: translateX(-50%) translateY(-50%);
-        -webkit-transform: translateX(-50%) translateY(-50%);
-        transform: translateX(-50%) translateY(-50%);
-        margin-top: 0;
-    }
-
-    .working-space .desc {
-        margin-top: 0vh;
-    }
-
-   
-
     .about h5 {
         font-size: 32px;
     }
 
     .about .desc {
         text-align: justify;
+    }
+
+    .contacts a {
+        font-size: 1.1vw;
     }
 
     .contacts .bs {

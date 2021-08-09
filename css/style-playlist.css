@@ -61,7 +61,7 @@
     background-image:  -o-linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .5), rgba(0, 0, 0, 1)), url(../img/bg_custom2.jpg);
     background-image:  linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .5), rgba(0, 0, 0, 1)), url(../img/bg_custom2.jpg);
     background-size: cover;
-    height: 85vh;
+    height: 175vw;
     text-align: center;
     font-family: Helvetica;
 }
@@ -69,7 +69,7 @@
 .jumbotron .display-4 {
     color: white;
     margin-top: 0px;
-    padding-top: 15vh;
+    padding-top: 18vh;
     font-weight: 0;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .7);
     font-size: 40px;
@@ -82,7 +82,7 @@
 }
 
 .jumbotron .carousel {
-    margin-top: 70px;
+    margin-top: 5vw;
 }
 
 .jumbotron .carousel img {
@@ -104,37 +104,6 @@
     font-size: 12px;
     font-family: 'Raleway', sans-serif;
     text-shadow: 3px 3px 1px 1px rgba(0, 0, 0, .5);
-}
-
-
-/* Panel Info */
-.panel-info {
-    -webkit-box-shadow: 0 3px 20px rgba(0, 0, 0, .5);
-            box-shadow: 0 3px 20px rgba(0, 0, 0, .5);
-    border-radius: 12px;
-    background-color: white;
-    margin-top: -100px;
-    padding: 30px;
-}
-
-.panel-info img {
-    width: 80px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
-
-.panel-info h4 {
-    font-size: 16px;
-    text-transform: uppercase;
-    font-weight: bold;
-    margin-top: 5px;
-}
-
-.panel-info p {
-    font-size: 14px;
-    color: #ACACAC;
-    margin-top: -5px;
-    font-weight: 200;
 }
 
 /* Working Space */
@@ -169,46 +138,7 @@
     margin: 30px 0;
 }
 
-/* Testimonial */
-.testimonial {
-    margin-top: 100px;
-}
-
-.testimonial h5 {
-    text-align: center;
-    font-weight: 200;
-    font-style: italic;
-    font-size: 24px;
-}
-
-.testimonial figure img {
-    width: 60px;
-    margin: 20px 10px 10px;
-    opacity: .6;
-}
-
-.testimonial figure img.main {
-    width: 90px;
-    opacity: 1;
-    margin-top: 5px;
-}
-
-.testimonial figure h5 {
-    font-size: 16px;
-    font-weight: bold;
-    font-style: normal;
-    color: #1C2C5D;
-}
-
-.testimonial figure p {
-    font-size: 12px;
-    color: #ACACAC;
-    margin-top: -5px;
-}
-
-.testimonial figcaption {
-    text-align: center;
-}
+/* Footer */
 
 .footer {
     margin-top: 100px;
@@ -259,10 +189,6 @@
     .navbar-brand {
         margin-top: -5px;
     }
-
-    /* .navbar-brand:hover img {
-        filter: brightness(55%) contrast(100%);
-    } */
 
     .nav-link {
         margin-top: 0px;
@@ -319,13 +245,13 @@
 
     .jumbotron {
         margin-top: 0px;
-        height: 1150px;
+        height: 75rem;
     }
 
     .jumbotron .display-4 {
         font-size: 62px;
         margin-top: 0px;
-        padding-top: 8vw;
+        padding-top: 10vw;
     }
 
     .jumbotron .carousel h5 {

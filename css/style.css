@@ -9,7 +9,6 @@
 .navbar {
     -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, .3);
             box-shadow: 2px 2px 10px rgba(0, 0, 0, .3);
-    padding: 2vh 2vh;
 }
 
 .navbar .navbar-toggler {
@@ -35,7 +34,6 @@
 }
 
 .navbar-brand img {
-    height: 4vw;
     -webkit-filter: brightness(35%) contrast(100%);
             filter: brightness(35%) contrast(100%);
     margin-top: -5px;
@@ -53,7 +51,6 @@
 
 /* Jumbotron */
 .jumbotron {
-    height: 55vh;
     background-size: cover;
 }
 
@@ -61,10 +58,6 @@
 .jumbotron img {
     position: relative;
     z-index: 2;
-    width: 8vh;
-    margin-top: 0vh;
-    padding-top: 17vh;
-    padding-bottom: 2vh;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -75,7 +68,6 @@
     margin-top: 0px;
     font-weight: 0;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .7);
-    font-size: 3.5vh;
     margin-bottom: 30px;
     text-align: center;
     z-index: 2;
@@ -155,7 +147,6 @@
 /* Working Space */
 .working-space {
     margin-top: 120px;
-    text-align: center;
 }
 
 .working-space img {
@@ -201,10 +192,10 @@
 /* Latest Video */
 .latest-vid {
     padding: 5vh;
-    margin-top: 18vh;
+    margin-top: 13vh;
     position: relative;
-    background-image:  -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .9)), color-stop(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, 1))), url(../img/racing_1.jpg);
     background-image:  -o-linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .5), rgba(0, 0, 0, 1)), url(../img/racing_1.jpg);
+    background-image:  -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .9)), color-stop(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, 1))), url(../img/racing_1.jpg);
     background-image:  linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .5), rgba(0, 0, 0, 1)), url(../img/racing_1.jpg);
     background-size: cover;
     background-position: center;
@@ -214,10 +205,6 @@
 .embed .desc {
     color: white;
     text-align: center;
-}
-
-.embed .desc p {
-    font-size: 1.7vh;
 }
 
 .embed .ratio iframe {
@@ -286,8 +273,223 @@
 
 
 
-/* DESKTOP VERSION */
-@media (min-width: 992px) { 
+
+
+
+
+
+/* PHONE DISPLAY */
+@media (min-width: 250px) and (max-width: 450px) {
+    
+    .navbar {
+        padding: 1.3vh 2vh;
+    }
+
+    .navbar-brand img {
+        height: 3.5vw;
+    }
+
+    .jumbotron {
+        height: 55vh;
+    }
+    
+    .jumbotron img {
+        width: 8vh;
+        margin-top: 0vh;
+        padding-top: 20vh;
+        padding-bottom: 2vh;
+    }
+    
+    .jumbotron .display-4 {
+        margin-top: 0px;
+        font-size: 4vh;
+    }
+    
+    .jumbotron a {
+        margin-top: 1vh;
+        font-size: 2vh;
+    }
+    
+    .jumbotron video {
+        height: 70%;
+    }
+
+    .working-space {
+        margin-top: 70px;
+        text-align: center;
+    }
+
+    .latest-vid {
+        margin-top: 10vh;
+    }
+
+    .embed .desc p {
+        font-size: 1.9vh;
+    }
+
+}
+
+/* TABLET DISPLAY */
+
+/* iPad */
+@media (min-width: 451px) and (max-width: 768px) {
+
+    .navbar {
+        padding: 1.3vh 2vh;
+    }
+
+    .navbar-brand img {
+        height: 2vw;
+    }
+
+    .nav-link {
+        font-size: 1.3vh;
+        margin-top: 0px;
+        position: relative;
+        z-index: 3;
+        padding: 1vh !important;
+    }
+
+    .navbar .customBtn {
+        margin-left: 20px;
+        margin-top: 0px;
+        padding: 10px 30px 0px 30px;
+        font-size: 1.3vh;
+    }
+
+    .jumbotron {
+        height: 63vh;
+    }
+
+    .jumbotron img {
+        width: 8vh;
+        margin-top: 0vh;
+        padding-top: 23vh;
+        padding-bottom: 2vh;
+    }
+
+    .jumbotron a {
+        margin-top: 1vh;
+        font-size: 2vh;
+    }
+
+    .jumbotron video {
+        height: 70%;
+    }
+
+    .working-space {
+        text-align: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+
+    .working-space h3 {
+        margin-top: 2vh;
+    }
+
+    .working-space .desc {
+        margin: 0;
+    }
+
+}
+
+/* iPad Pro */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .navbar {
+        padding: 1.3vh 2vh;
+    }
+
+    .navbar-brand img {
+        height: 2vw;
+    }
+
+    .nav-link {
+        font-size: 1.3vh;
+        margin-top: 0px;
+        position: relative;
+        z-index: 3;
+        padding: 1vh !important;
+    }
+
+    .navbar .customBtn {
+        margin-left: 20px;
+        margin-top: 0px;
+        padding: 10px 30px 0px 30px;
+        font-size: 1.3vh;
+    }
+
+    .jumbotron {
+        height: 63vh;
+    }
+
+    .jumbotron img {
+        width: 8vh;
+        margin-top: 0vh;
+        padding-top: 23vh;
+        padding-bottom: 2vh;
+    }
+
+    .jumbotron a {
+        margin-top: 1vh;
+        font-size: 2vh;
+    }
+
+    .jumbotron video {
+        height: 70%;
+    }
+
+    .working-space {
+        text-align: left;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+
+    .working-space h3 {
+        margin-top: 0vh;
+    }
+
+    .working-space .desc {
+        margin: 0;
+    }
+
+    .embed {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    
+    .embed .desc {
+        color: white;
+        text-align: left;
+        margin: 0;
+    }
+
+    .embed .desc h5 {
+        font-size: 2.5vw;
+    }
+    
+    .embed .desc p {
+        font-size: 1.5vw;
+        margin-top: 1.5vw;
+    }
+
+}
+
+
+/* DESKTOP DISPLAY */
+@media (min-width: 1025px) and (max-width: 1850px) {
 
     .navbar {
         z-index: 7;
@@ -308,10 +510,6 @@
     .navbar-brand {
         margin-top: -5px;
     }
-
-    /* .navbar-brand:hover img {
-        filter: brightness(55%) contrast(100%);
-    } */
 
     .nav-link {
         margin-top: 0px;
@@ -388,7 +586,7 @@
 
     .jumbotron video {
         width: 100%;
-        height: 75%;
+        height: 83%;
     }
 
     .panel-info {
@@ -414,8 +612,8 @@
     }
 
     .latest-vid {
-        background-image:  -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .9)), color-stop(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, 1))), url(../img/racing_1.jpg);
         background-image:  -o-linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .5), rgba(0, 0, 0, 1)), url(../img/racing_1.jpg);
+        background-image:  -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .9)), color-stop(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, 1))), url(../img/racing_1.jpg);
         background-image:  linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .5), rgba(0, 0, 0, 1)), url(../img/racing_1.jpg);
     }
 
@@ -452,5 +650,172 @@
     .testimonial h5 {
         font-size: 32px;
     }
+
+}
+
+/* 1080p */
+@media (min-width: 1851px) and (max-width: 2560px) {
+
+    .navbar {
+        z-index: 7;
+        opacity: 1;
+        padding: 1vh;
+    }
+
+    .navbar .navbar-nav {
+        padding: 1vh;
+    }
+
+    .navbar-brand {
+        margin-top: 0px;
+        position: relative;
+        z-index: 3;
+    }
+
+    .navbar-brand {
+        margin-top: -5px;
+    }
+
+    .nav-link {
+        margin-top: 0px;
+        position: relative;
+        z-index: 3;
+        padding: 1vh !important;
+        font-size: 2vh;
+    }
+
+    .navbar .customBtn {
+        margin-top: 0px;
+        padding: 10px 30px 0px 30px;
+
+    }
+
+    .navbar-brand img {
+        position: relative;
+        -webkit-filter: brightness(35%) contrast(100%);
+                filter: brightness(35%) contrast(100%);
+        height: 1.5vw;
+    }
+
+    .navbar-brand, .nav-link {
+        color: rgb(97, 97, 97) !important;
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+
+    .navbar-nav .active {
+        font-weight: bold;
+    }
+
+    .navbar-nav .active::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #a0a0a0;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #a0a0a0;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    .jumbotron {
+        margin-top: 0px;
+        height: 65vh;
+    }
+
+    .jumbotron img {
+        position: relative;
+        z-index: 2;
+        width: 5vw;
+        margin-top: 0vh;
+        padding-top: 15vw;
+        padding-bottom: 2vh;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .jumbotron .display-4 {
+        font-size: 4vw;
+    }
+
+    .jumbotron video {
+        width: 100%;
+        height: 83%;
+    }
+
+    .panel-info {
+        margin-top: 10vh;
+    }
+
+    .working-space {
+        text-align: left;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+
+    .working-space h3 {
+        margin-top: 0vh;
+    }
+
+    .working-space .desc {
+        margin: 0;
+    }
+
+    .latest-vid {
+        background-image:  -o-linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .5), rgba(0, 0, 0, 1)), url(../img/racing_1.jpg);
+        background-image:  -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .9)), color-stop(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, 1))), url(../img/racing_1.jpg);
+        background-image:  linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .5), rgba(0, 0, 0, 1)), url(../img/racing_1.jpg);
+    }
+
+    .embed {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    
+    .embed .desc {
+        color: white;
+        text-align: left;
+        margin: 0;
+    }
+
+    .embed .desc h5 {
+        font-size: 2.5vw;
+    }
+    
+    .embed .desc p {
+        font-size: 1.5vw;
+        margin-top: 1.5vw;
+    }
+    
+    .embed .ratio iframe {
+        border-radius: 10px;
+        -webkit-box-shadow: 3px 5px 5px 5px rgba(0, 0, 0, .5);
+                box-shadow: 3px 5px 5px 5px rgba(0, 0, 0, .5);
+    }
+
+    .testimonial h5 {
+        font-size: 32px;
+    }   
 
 }

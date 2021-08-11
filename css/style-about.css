@@ -65,8 +65,8 @@ body {
 
 /* Jumbotron */
 .jumbotron {
-    background-image:  -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .7)), to(rgba(0, 0, 0, .7))), url(../img/city.jpg);
     background-image:  -o-linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/city.jpg);
+    background-image:  -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .7)), to(rgba(0, 0, 0, .7))), url(../img/city.jpg);
     background-image:  linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/city.jpg);
     background-size: cover;
     height: 60vh;
@@ -144,6 +144,7 @@ body {
     text-align: center;
 }
 
+
 /* Contacts */
 .contacts {
     background-color: #616161;
@@ -219,8 +220,128 @@ body {
 
 
 
+
+
+/* PHONE DISPLAY */
+@media (min-width: 250px) and (max-width: 450px) {
+    
+    .navbar {
+        padding: 1.3vh 2vh;
+    }
+
+    .navbar-brand img {
+        height: 3.5vw;
+    }
+
+}
+
+/* TABLET DISPLAY */
+
+/* iPad */
+@media (min-width: 451px) and (max-width: 768px) {
+    
+    .navbar {
+        padding: 1.3vh 2vh;
+    }
+
+    .navbar-brand img {
+        height: 2vw;
+    }
+
+}
+
+/* iPad Pro */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .navbar {
+        padding: 1.3vh 2vh;
+    }
+
+    .navbar-brand img {
+        height: 2vw;
+    }
+
+    .nav-link {
+        font-size: 1.3vh;
+        margin-top: 0px;
+        position: relative;
+        z-index: 3;
+        padding: 1vh !important;
+    }
+
+    .navbar .customBtn {
+        margin-left: 20px;
+        margin-top: 0px;
+        padding: 10px 30px 0px 30px;
+        font-size: 1.3vh;
+    }
+
+    .about {
+        margin-top: 5vh;
+    }
+    
+    .about h5 {
+        text-align: center;
+        font-weight: 200;
+        font-style: italic;
+        font-size: 24px;
+    }
+    
+    .about figure img {     
+        width: 60px;
+        margin: 20px 10px 10px;
+        opacity: .6;
+    }
+    
+    .about figure img.main {
+        width: 90px;
+        opacity: 1;
+        margin-top: 5px;
+    }
+    
+    .about figure h5 {
+        font-size: 16px;
+        font-weight: bold;
+        font-style: normal;
+        color: #616161;
+    }
+    
+    .about figure p {
+        font-size: 12px;
+        color: #ACACAC;
+        margin-top: -5px;
+    }
+    
+    .about figcaption {
+        text-align: center;
+    }
+    
+    .about .desc {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .contacts a {
+        font-size: 1.1vw;
+    }
+
+    .contacts .bs {
+        background-color: #616161;
+        padding: 3vh;
+        margin-right: 2vh;
+        margin-top: 0vh;
+    }
+    
+    .contacts .work {
+        background-color: #616161;
+        padding: 3vh;
+        margin-top: 0vh;
+    }
+
+}
+
 /* DESKTOP VERSION */
-@media (min-width: 992px) { 
+@media (min-width: 1025px) { 
 
     .navbar {
         z-index: 3;
@@ -241,10 +362,6 @@ body {
     .navbar-brand {
         margin-top: -5px;
     }
-
-    /* .navbar-brand:hover img {
-        filter: brightness(55%) contrast(100%);
-    } */
 
     .nav-link {
         margin-top: 0px;
@@ -321,6 +438,7 @@ body {
 
     .about .desc {
         text-align: justify;
+        font-size: 1.3vw;
     }
 
     .contacts a {
